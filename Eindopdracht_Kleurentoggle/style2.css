@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgrey;
+}
+.container {
+    height: 50vh;
+}
+
+.hamburger {
+    font-size: 3rem;
+    margin: 1rem 1rem 4rem 1rem;
+    cursor: pointer;
+}
+.nav-links {
+    position: fixed;
+    top: 15%;
+}
+
+.links__nav {
+    overflow: auto;
+    width: 20rem;
+    left: -20rem;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: .7rem .3rem ;
+    width: 20rem;
+    height: 2.5rem;
+    background-color: lightgrey;
+    margin-bottom: .2rem;
+    opacity: 0;
+    display: none;
+    cursor: pointer;
+}
+.links__nav.fade {
+    opacity: 1;
+    display: flex;
+}
+.p {
+    padding: 0.1rem 1rem;
+}
+.home {
+    background-color: lightgrey;
+}
+.red {
+background-color: red;
+}
+.orange {
+background-color: orange;
+}
+.purple {
+background-color: purple;
+}
+.green {
+background-color: green;
+}
